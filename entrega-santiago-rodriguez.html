@@ -1,20 +1,28 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>entrega-santiago-rodriguez</title>
+        <title>Tarea 4</title>
         <meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<!--Si quisiera hacerlo usando la red-->
-		<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">-->
-		<!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>-->
-		<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>-->
-		<!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>-->
-		
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="autor" content="Santiago Rodriguez">
+        <meta name="description" content="Pagina de la tarea 4 devlab">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">
     </head>
     <body>
-        <h1>Tarea 4</h1>
-        <h2>¿Qué es un diseño responsive? ¿Por qué es importante?</h2>
-        <p>
+      <div class="container">
+        <div class="row-fluid">
+          <div class="page-header" id="main-header">
+            <h1>Tarea 4</h1>
+          </div>
+          <hr>
+          <h2>¿Qué es un diseño responsive? ¿Por qué es importante?</h2>
+          <p class="text-justify">
             El diseño responsive es una técnica de diseño web que busca la
             correcta visualización de una misma página en distintos
             dispositivos.
@@ -25,203 +33,379 @@
             una mejor experiencia de usuario. Por todo lo anterior, el diseño
             responsive es de vital importancia en el desarrollo de una página
             web.
-        </p>
-        <h2>¿Qué es un media query?</h2>
-		<p>
-			Un media query consiste en un tipo de medio y al menos una consulta
-			que limita las hojas de estilo utilizando características del medio
-			como ancho, alto y color. Se entiende como un módulo de CSS3 que
-			permite adaptar la representación del contenido a caracterísitcas
-			del dispositivo. Añadiendo en CSS3, las media queries dejan que la
-			presentación del contenido se adapte a un rango específico de
-			dispositvos de salida sin tener que cambiar el contenido en sí.
-			<br><br>
-			Los media queries consisten de un media type y una o más expresiones,
-			implicando características del medio, la cual se resuelve como
-			verdadera o falsa.
-		</p>
-		<pre>
-&lt;!-- CSS media query en un elemento link -- &gt;
-&lt;link rel&#61;&quot;stylesheet&quot; media&#61;&quot;(max-width: 800px)&quot; href&#61;&quot;example.css&quot;&gt;
+          </p>
+          <h2>¿Qué es un media query?</h2>
+          <p class="text-justify">
+            Un media query consiste en un tipo de medio y al menos una consulta
+            que limita las hojas de estilo utilizando características del medio
+            como ancho, alto y color. Se entiende como un módulo de CSS3 que
+            permite adaptar la representación del contenido a caracterísitcas
+            del dispositivo. Añadiendo en CSS3, las media queries dejan que la
+            presentación del contenido se adapte a un rango específico de
+            dispositvos de salida sin tener que cambiar el contenido en sí.
+            <br><br>
+            Los media queries consisten de un media type y una o más expresiones,
+            implicando características del medio, la cual se resuelve como
+            verdadera o falsa.
+          </p>
+          <pre>
+            &lt;!-- CSS media query en un elemento link -- &gt;
+            &lt;link rel&#61;&quot;stylesheet&quot; media&#61;&quot;(max-width: 800px)&quot; href&#61;&quot;example.css&quot;&gt;
 
-&lt;!-- CSS media query dentro de una hoja de estilo --&gt;
-&lt;style&gt;
-&#64;media (max-width: 600px) { ... }
-&lt;/style&gt;
-		</pre>
-		<h2>¿Cuáles son las resoluciones estándares, o breakpoints, que se utilizan en el diseño responsive?</h2>
-		<p>
-			Existen diversas resoluciones debido a la diversa existencia de
-			dispositivos en los que es posible mostrar una página web, una
-			lista detallada puede ser vista en el siguiente enlace:
-			<a href="https://material.io/devices/">lista de resoluciones
-			estandares</a>
-		</p>
-		<h2>¿Qué es Bootstrap?</h2>
-		<p>
-			Es un framework web para diseño de sitios y aplicaciones web.
-			Contiene plantillas de diseño con tipografía, formularios,
-			botones, cuadros, menús de navegación y otros elementos de
-			diseño basado en HTML y CSS, así como extensiones adicionales
-			de JavaScript opcionales.
-		</p>
-		<h2>Mencione otras librerías para la personalización de front end</h2>
-		<p>
-			Foundation, Semantic UI, Materialize CSS, Metro UI, MUI, Ink,
-			Material Design Lite, etc.
-		</p>
-		<h2>¿Cómo funciona el grid system de Bootstrap?</h2>
-		<p>
-			Bootstrap incluye un poderoso mobile-first flexbox grid system
-			para construir disposiciones de todas las formas y tamaños. El
-			sistema está basado en una disposición de 12 columnas y tiene
-			múltiples niveles (5), uno por cada rango de media query.
-			<br><br>
-			El grid system de Bootstrap usa una serie de contenedores, filas,
-			y columnas para posicionar y alinear contenido. Está construida con
-			flexbox y es totalmente responsive.
-		</p>
-		<h2>
-			En Bootstrap, ¿qué significan o qué representan los siguientes
-			conceptos? ¿Cómo se utilizan?
-			<code>container</code>,
-			<code>container-fluid</code>,
-			<code>row</code>,
-			<code>row-fluid</code>,
-			<code>col</code>.
-		</h2>
-		<p>
-			Los contenedores ofrecen los medios para centrar y horizontalmente
-			rellenar los contenidos de tu sitio. Use <code>container</code>
-			para un ancho de pixeles responsive o <code>container-fluid</code>
-			para un ancho del 100% sobre todos los viewports y tamaños de
-			dispositivo.
-			<br><br>
-			Las filas, es decir, <code>row</code>, son envoltorios para las
-			columnas. Use <code>row-fluid</code> para un ancho del 100%.
-			<br></br>
-			En una grid layout, el contenido debe colocarse dentro de columnas y
-			solo las columnas pueden ser hijos inmediatos de las filas.
-			<br><br>
-			Las clases de columna <code>col-#</code> donde <code>#</code> es un
-			placeholder en el que se coloca un número entero entre el 1 y el 12,
-			indican el numero de columnas que se quiere por columna (12 en total),
-			y pueden tambien combinar distintas variaciones dependiendo del tamaño
-			del viewport, están
-			<code>col-sm-#</code>,
-			<code>col-md-#</code>, 
-			<code>col-lg-#</code>,
-			<code>col-xl-#</code>.
-		</p>
-		<h2>En las columnas de Bootstrap, ¿qué es un offset y cómo se utiliza?</h2>
-		<p>
-			Un offset es usado para aumentar el margen a la izquierda de la columna
-			un número dado de columnas, por ejemplo:
-			<code>col-sm-5 col-sm-oofset-2</code>
-			en una clase de un elemento <code>div</code> generaría una columna que
-			ocupa 5 de las 12 columnas con un margen a la izquierda adicional de
-			2 columnas de las 12 lo cual terminaría generando una columna de 7 espacios.
-		</p>
-		<h2>
-			¿Cómo se puede ocultar y mostrar selectivamente secciones de código utilizando
-			Bootstrap según la resolución del dispositivo?
-		</h2>
-		<p>
-			Modificando la propiedad <code>display</code> en Bootstrap según
-			la resolución de un dispositivo se puede lograr mediante el uso
-			de <code>d-{breakpoint}-{value}</code> donde <code>{property}</code>
-			es un placeholder para los valores conocidos
-			<code>xs</code>, el que realmente no es necesario,
-			<code>sm</code>,
-			<code>md</code>,
-			<code>lg</code> y
-			<code>xl</code>. Ejemplo:
-			<code>d-none d-sm-block</code> en una definicion de clase de
-			un elemento mostraría el elemento en viewports que satisfagan
-			el breakpoint <code>sm</code> únicamente, mientras que para
-			los que cumplan el breakpoint <code>xs</code> no se mostrará.
-		</p>
-		<h2>¿Cómo se puede cambiar una propiedad de CSS para un breakpoint en específico?</h2>
-		<p>
-			usando el selector de CSS <code>&#64;media</code>. Ejemplo:
-		</p>
-		<pre>
-&#64;media only screen and (max-width: 500px) {
-	body {
-		background-color: lightblue;
-	}
-}
-		</pre>
-		<h2>¿Qué es un modal?</h2>
-		<p>
-			Un modal es una ventana caja de diálogo que es mostrada sobre la página actual.
-		</p>
-		<h2>¿Qué es un carrusel?</h2>
-		<p>
-			Es un slideshow para pasar en ciclo a través de los elementos.
-		</p>
-		<h2>¿Qué es un tooltip?</h2>
-		<p>
-			Es una pequeña caja pop-up que aparece cuando el usuario mueve el puntero
-			del ratón sobre un elemento.
-		</p>
-		<h2>¿Qué es un navbar?</h2>
-		<p>
-			Es un encabezado de navegación que se ubica en la parte superior de la página web.
-		</p>
-		<h2>¿Qué es un footer?</h2>
-		<p>
-			En bootstrap (y generalmente), es un elemento adicional para navegación en el sitio web.
-			Se encuentra al final del sitio.
-		</p>
-		<h2>¿Qué es un jumbotron?</h2>
-		<p>
-			Un componente ligero y flexible que puede opcionalmente extenderse
-			por todo el viewport para resaltar mensajes de marketing claves en
-			tu sitio.
-		</p>
-		<h2>¿Qué es flex box?</h2>
-		<p>
-			El posicionamient flexible (flex box) pretende ofrecer una manera
-			más eficiente de posicionar, alinear y distribuir especio entre
-			artículos en un contenedor, incluso cuando el tamaño es desconocido
-			y/o dinámico.
-			<br><br>
-			La idea principal detrás del posicionamiento flexible es darle al
-			contenedor la habilidad de alterar el ancho/alto de sus artículos
-			para satisfacer el espacio disponible. Un contenedor flexible expande
-			sus artículos para ocupar espacio disponible, o los encoje para prevenir
-			sobreflujo (elementos demasiado grandes, obviamente).
-			<br><br>
-			Nota: posicionamiento con Flexbox es más apropiado para los componentes
-			de una aplicación, y disposiciones a pequeña escala, mientras que la
-			disposición de rejilla (grid) existe para disposiciones de mayor escala.
-		</p>
-		<h2>¿Cuáles son los distintos tipos de flex que existen y para que sirve cada uno?</h2>
-		<p>
-			Antes que nada, el contenedor debe estar con la propiedad <code>display: flex;</code>.
-			Luego, se tienen propiedades de flex para el contenedor, las cuales son las
-			siguientes:
-		</p>
-		<ul>
-			<li>
-			<em><code>flex-direction</code></em>: establece el eje principal, así definiendo
-			la direccion en la que los artículos flexibles son colocados en el contenedor.
-			Los artículos primariamente se posicionan en filas columnas. Los valores para la
-			propiedad son los siguientes:
-			<ul>
-				<li>
-					<code>row</code> (default): de izquierda a derecha en <code>ltr</code>;
-					de derecha a izquierda en <code>rtl</code>.
-				</li>
-				<li>
-			</ul>
-			</li>
-			<li>
-			<em><code>flex-wrap</code></em>: Por defecto, los artículos intentarán ajustarse
-			sobre una línea. Uno puede cambiar eso y permitir que los artículos se envuelvan
-			cuando sea necesario con esta propiedad. Los
-			</li>
-		</ul>
+            &lt;!-- CSS media query dentro de una hoja de estilo --&gt;
+            &lt;style&gt;
+              &#64;media (max-width: 600px) { ... }
+            &lt;/style&gt;
+          </pre>
+          <h2>¿Cuáles son las resoluciones estándares, o breakpoints, que se utilizan en el diseño responsive?</h2>
+          <p class="text-justify">
+            Existen diversas resoluciones debido a la diversa existencia de
+            dispositivos en los que es posible mostrar una página web, una
+            lista detallada puede ser vista en el siguiente enlace:
+            <a href="https://material.io/devices/">lista de resoluciones estandares</a>
+          </p>
+          <h2>¿Qué es Bootstrap?</h2>
+          <p class="text-justify">
+            Es un framework web para diseño de sitios y aplicaciones web.
+            Contiene plantillas de diseño con tipografía, formularios,
+            botones, cuadros, menús de navegación y otros elementos de
+            diseño basado en HTML y CSS, así como extensiones adicionales
+            de JavaScript opcionales.
+          </p>
+          <h2>Mencione otras librerías para la personalización de front end</h2>
+          <p class="text-justify">
+            Foundation, Semantic UI, Materialize CSS, Metro UI, MUI, Ink,
+            Material Design Lite, etc.
+          </p>
+          <h2>¿Cómo funciona el grid system de Bootstrap?</h2>
+          <p class="text-justify">
+            Bootstrap incluye un poderoso mobile-first flexbox grid system
+            para construir disposiciones de todas las formas y tamaños. El
+            sistema está basado en una disposición de 12 columnas y tiene
+            múltiples niveles (5), uno por cada rango de media query.
+            <br><br>
+            El grid system de Bootstrap usa una serie de contenedores, filas,
+            y columnas para posicionar y alinear contenido. Está construida con
+            flexbox y es totalmente responsive.
+          </p>
+          <h2>
+            En Bootstrap, ¿qué significan o qué representan los siguientes
+            conceptos? ¿Cómo se utilizan?
+            <code>container</code>,
+            <code>container-fluid</code>,
+            <code>row</code>,
+            <code>row-fluid</code>,
+            <code>col</code>.
+          </h2>
+          <p class="text-justify">
+            Los contenedores ofrecen los medios para centrar y horizontalmente
+            rellenar los contenidos de tu sitio. Use <code>container</code>
+            para un ancho de pixeles responsive o <code>container-fluid</code>
+            para un ancho del 100% sobre todos los viewports y tamaños de
+            dispositivo.
+            <br><br>
+            Las filas, es decir, <code>row</code>, son envoltorios para las
+            columnas. Use <code>row-fluid</code> para un ancho del 100%.
+            <br></br>
+            En una grid layout, el contenido debe colocarse dentro de columnas y
+            solo las columnas pueden ser hijos inmediatos de las filas.
+            <br><br>
+            Las clases de columna <code>col-#</code> donde <code>#</code> es un
+            placeholder en el que se coloca un número entero entre el 1 y el 12,
+            indican el numero de columnas que se quiere por columna (12 en total),
+            y pueden tambien combinar distintas variaciones dependiendo del tamaño
+            del viewport, están
+            <code>col-sm-#</code>,
+            <code>col-md-#</code>,
+            <code>col-lg-#</code>,
+            <code>col-xl-#</code>.
+          </p>
+          <h2>En las columnas de Bootstrap, ¿qué es un offset y cómo se utiliza?</h2>
+          <p class="text-justify">
+            Un offset es usado para aumentar el margen a la izquierda de la columna
+            un número dado de columnas, por ejemplo:
+            <code>col-sm-5 col-sm-oofset-2</code>
+            en una clase de un elemento <code>div</code> generaría una columna que
+            ocupa 5 de las 12 columnas con un margen a la izquierda adicional de
+            2 columnas de las 12 lo cual terminaría generando una columna de 7 espacios.
+          </p>
+          <h2>
+            ¿Cómo se puede ocultar y mostrar selectivamente secciones de código utilizando
+            Bootstrap según la resolución del dispositivo?
+          </h2>
+          <p class="text-justify">
+            Modificando la propiedad <code>display</code> en Bootstrap según
+            la resolución de un dispositivo se puede lograr mediante el uso
+            de <code>d-{breakpoint}-{value}</code> donde <code>{property}</code>
+            es un placeholder para los valores conocidos
+            <code>xs</code>, el que realmente no es necesario,
+            <code>sm</code>,
+            <code>md</code>,
+            <code>lg</code> y
+            <code>xl</code>. Ejemplo:
+            <code>d-none d-sm-block</code> en una definicion de clase de
+            un elemento mostraría el elemento en viewports que satisfagan
+            el breakpoint <code>sm</code> únicamente, mientras que para
+            los que cumplan el breakpoint <code>xs</code> no se mostrará.
+          </p>
+          <h2>¿Cómo se puede cambiar una propiedad de CSS para un breakpoint en específico?</h2>
+          <p class="text-justify">
+            usando el selector de CSS <code>&#64;media</code>. Ejemplo:
+          </p>
+          <pre>
+            &#64;media only screen and (max-width: 500px) {
+              body {
+                background-color: lightblue;
+              }
+            }
+          </pre>
+          <h2>¿Qué es un modal?</h2>
+          <p class="text-justify">
+            Un modal es una ventana caja de diálogo que es mostrada sobre la página actual.
+          </p>
+          <h2>¿Qué es un carrusel?</h2>
+          <p class="text-justify">
+            Es un slideshow para pasar en ciclo a través de los elementos.
+          </p>
+          <h2>¿Qué es un tooltip?</h2>
+          <p class="text-justify">
+            Es una pequeña caja pop-up que aparece cuando el usuario mueve el puntero
+            del ratón sobre un elemento.
+          </p>
+          <h2>¿Qué es un navbar?</h2>
+          <p class="text-justify">
+            Es un encabezado de navegación que se ubica en la parte superior de la página web.
+          </p>
+          <h2>¿Qué es un footer?</h2>
+          <p class="text-justify">
+            En bootstrap (y generalmente), es un elemento adicional para navegación en el sitio web.
+            Se encuentra al final del sitio.
+          </p>
+          <h2>¿Qué es un jumbotron?</h2>
+          <p class="text-justify">
+            Un componente ligero y flexible que puede opcionalmente extenderse
+            por todo el viewport para resaltar mensajes de marketing claves en
+            tu sitio.
+          </p>
+          <h2>¿Qué es flex box?</h2>
+          <p class="text-justify">
+            El posicionamient flexible (flex box) pretende ofrecer una manera
+            más eficiente de posicionar, alinear y distribuir especio entre
+            artículos en un contenedor, incluso cuando el tamaño es desconocido
+            y/o dinámico.
+            <br><br>
+            La idea principal detrás del posicionamiento flexible es darle al
+            contenedor la habilidad de alterar el ancho/alto de sus artículos
+            para satisfacer el espacio disponible. Un contenedor flexible expande
+            sus artículos para ocupar espacio disponible, o los encoje para prevenir
+            sobreflujo (elementos demasiado grandes, obviamente).
+            <br><br>
+            Nota: posicionamiento con Flexbox es más apropiado para los componentes
+            de una aplicación, y disposiciones a pequeña escala, mientras que la
+            disposición de rejilla (grid) existe para disposiciones de mayor escala.
+          </p>
+          <h2>¿Cuáles son los distintos tipos de flex que existen y para que sirve cada uno?</h2>
+        </div>
+        <div class="row" id="bottom-row">
+          <div class="col-6" id="left-col">
+            <p class="text-justify">
+              Antes que nada, el contenedor debe estar con la propiedad <code>display: flex</code>.
+              Luego, se tienen propiedades de flex para el contenedor, las cuales son las
+              siguientes:
+            </p>
+            <ul>
+              <li>
+                <strong><code>flex-direction</code></strong>: establece el eje principal, así definiendo
+                la direccion en la que los artículos flexibles son colocados en el contenedor.
+                Los artículos primariamente se posicionan en filas columnas. Los valores para la
+                propiedad son los siguientes:
+                <ul>
+                  <li>
+                    <code>row</code> (default): de izquierda a derecha en <code>ltr</code>;
+                    de derecha a izquierda en <code>rtl</code>.
+                  </li>
+                  <li>
+                    <code>row-reverse</code>: de derecha izquierda en <code>ltr</code>;
+                    de izquierda a derecha en <code>rtl</code>.
+                  </li>
+                  <li>
+                    <code>column</code>: igual que <code>row</code>, pero de arriba hacia
+                    abajo.
+                  </li>
+                  <li>
+                    <code>column-reverse</code>: lo mismo que <code>row-reverse</code> pero
+                    de abajo hacia arriba.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong><code>flex-wrap</code></strong>: Por defecto, los artículos intentarán ajustarse
+                sobre una línea. Uno puede cambiar eso y permitir que los artículos se envuelvan
+                cuando sea necesario con esta propiedad. Los valores para la propiedad son
+                los siguientes:
+                <ul>
+                  <li>
+                    <code>nowrap</code> (default): todos los artículos flex estarán en una
+                    línea.
+                  </li>
+                  <li>
+                    <code>wrap</code>: los artículos flex se envolverán en múltiples líneas,
+                    de arriba hacia abajo.
+                  </li>
+                  <li>
+                    <code>wrap-reverse</code>: los artículos flex se envolverán en múltiples
+                    líneas de abajo hacia arriba.
+                  </li>
+                </ul>
+      			  </li>
+              <li>
+                <strong><code>flex-flow</code></strong>: Es un atajo para las propiedades
+                <code>flex-direction</code> y <code>flex-wrap</code>, las cuales juntas
+                definen los ejes principales del contenedor. Por defecto es
+                <code>row nowrap</code>
+              </li>
+              <li>
+                <strong><code>justify-content</code></strong>: Define la alineación sobre los
+                ejes principales. Ayuda a distribuir espacio extra dejado de lado cuando
+                todos los artículos flex en una línea son inflexibles, o son flexibles
+                pero han alcanzado su tamaño máximo. También ejerce cierto control sobre
+                la alineación de los artículos cuando éstos rebosan la línea. Para esta
+                propiedad están los siguientes valores:
+                <ul>
+                  <li>
+                    <code>flex-start</code> (default): los artículos son empaquetados
+                    hacia el inicio de línea.
+                  </li>
+                  <li>
+                    <code>flex-end</code>: los artículos son empaquetados hacia el final
+                    de línea.
+                  </li>
+                  <li>
+                    <code>center</code>: los artículos son centrados a lo largo la línea.
+                  </li>
+                  <li>
+                    <code>space-between</code>: los artículos son equitativamente distribuidos
+                    en la línea; el primer artículo al inicio de línea, último artículo
+                    al final de línea.
+                  </li>
+                  <li>
+                    <code>space-around</code>: los artículos son equitativamente distribuidos
+                    en la línea con un espacio igual alrededor de ellos.
+                  </li>
+                  <li>
+                    <code>space-evenly</code>: los artículos son distribuidos de manera que
+                    el espaciado entre dos artículos cualesquiera es igual.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong><code>align-items</code></strong>: Define el comportamiento por defecto
+                de cómo los artículos flex son posicionados a lo largo del eje transversal
+                en la línea actual. Para esta propiedad existen los siguientes valores:
+                <ul>
+                  <li>
+                    <code>flex-start</code>: los artículos son ubicados al inicio de la
+                    línea transversal.
+                  </li>
+                  <li>
+                    <code>flex-end</code>: los artículos son ubicados al final de la línea
+                    transversal.
+                  </li>
+                  <li>
+                    <code>center</code>: los artículos son ubicados al centro de la línea
+                    transversal.
+                  </li>
+                  <li>
+                    <code>baseline</code>: los artículos son alineados, como alinear sus
+                    líneas de base.
+                  </li>
+                  <li>
+                    <code>strech</code> (default): los artículos son estirados para llenar
+                    el contenedor.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <strong><code>align-content</code></strong>: Alínea las líneas internas del contenedor
+                flex cuando existe espacio extra en el eje transversal, similar a
+                <code>justify-content</code>. La propiedad tiene los siguientes posibles
+                valores:
+                <ul>
+                  <li>
+                    <code>flex-start</code>: las líneas se empaquetan al inicio del contenedor
+                  </li>
+                  <li>
+                    <code>flex-end</code>: las líneas se empaquetan al final del contenedor.
+                  </li>
+                  <li>
+                    <code>center</code>: las líneas se empaquetan al centro del contenedor.
+                  </li>
+                  <li>
+                    <code>space-between</code>: las líneas son equitativamente distribuidas;
+                    la primera línea está al inicio del contenedor, mientras que la última
+                    línea está al final.
+                  </li>
+                  <li>
+                    <code>space-around</code>: las líneas son equitativamente distribuidas
+                    con igual espacio alrededor de cada línea.
+                  </li>
+                  <li>
+                    <code>stretch</code> (default): las líneas se estiran para tomar el
+                    espacio restante.
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="col-6" id="right-col">
+            <p class="text-justify">
+              Para las propiedades que tienen los artículos flex de un contenedor flex
+              se muestra la siguiente lista:
+            </p>
+            <ul>
+              <li>
+                <strong><code>order</code></strong>: Por defecto, los artículos flex están posicionados
+                a partir del 0 en adelante. Esta propiedad controla el orden en el cual
+                los artículos aparecen en el contenedor flex.
+              </li>
+              <li>
+                <strong><code>flex-grow</code></strong>: Define la habilidad para un artículo flex
+                para crecer si es necesario. Acepta un único valor sin unidades que sirve
+                como proporción. Establece que cantidad del espacio disponible dentro del
+                contenedor flex el artículo debería ocupar.
+              </li>
+              <li>
+                <strong><code>flex-shrink</code></strong>: Define la habilidad para un artículo
+                flex de encogerse si es necesario. Los números negativos son inválidos.
+              </li>
+              <li>
+                <strong><code>flex-basis</code></strong>: Define el tamaño por defecto
+                de un elemento antes de que el espacio restante sea distribuído.
+                Puede ser una longitud (20%, 5rem, etc.) o una palabra clave. La palabra
+                clave <code>auto</code> quiere decir "verifica mi propiedad de ancho y alto".
+                La palabra clave <code>content</code> quiere decir "el tamaño está basado
+                en los contenidos del artículo".
+              </li>
+              <li>
+                <strong><code>flex</code></strong>: Es un atajo para <code>flex-grow</code>,
+                <code>flex-shrink</code> y <code>flex-basis</code> combinados. Los segundo
+                y tercer parámetro son opcionales. Por defecto es <code>0 1 auto</code>.
+              </li>
+              <li>
+                <strong><code>align-self</code></strong>: Permite sobreescribir la alineación
+                por defecto para artículos flex individuales. Sus valores posibles son
+                los mismos que los de la propiedad <code>align-items</code> usada para
+                los contenedores flex. Nótese que <code>float</code>, <code>clear</code>
+                y <code>vertical-align</code> no tienen efecto alguno en un artículo flex.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <span class="text-muted">Fin de la tarea número 4</span>
+          </div>
+        </footer>
+      </div>
     </body>
 </html>

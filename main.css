@@ -1,0 +1,30 @@
+#main-header {
+  margin-top: 2rem;
+}
+#left-col {
+  border: 3px solid lightgray;
+}
+#right-col {
+  border: 3px solid lightgray;
+  border-left: none;
+}
+#bottom-row {
+  margin-bottom: 3rem;
+}
+h1 {
+  font-family: 'Passion One', cursive;
+  font-size: 80px;
+}
+h2 {
+  font-family: 'Passion One', cursive;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+p {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+}
+.footer {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
