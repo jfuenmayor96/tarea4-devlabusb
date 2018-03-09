@@ -37,3 +37,67 @@ de CSS sea válida para dispositivos que sean de un tamaño especifico por ejemp
 
 Lo que se indique en reglas css se aplicara únicamente cuando el tamaño de la 
 pantalla del dispositivo sea mayor a 768 pixeles.
+
+~~3. Cuáles son las resoluciones estándares, o breakpoints, que se utilizan en el diseño responsive?
+
+Las resoluciones estándares que se han utilizado hasta ahora son ~~
+
+
+4. Qué es Bootstrap?
+
+Bootstrap es un framework gratuito de desarollo sitios web tanto responsive 
+como mobile-first.
+
+Fue creado por Twitter para su uso interno y posteriormente fue liberado como
+código abierto. Se convirtió en el proyecto de desarrollo más popular de Github.
+
+Bootstrap contiene plantillas de diseño de formularios, botones, menús de
+navegación, entre otras cosas.
+
+
+5. Mencione otras librerias para la personalización de front end
+
+* Materialize 
+* Pure
+* Jeet
+* Susy
+
+y más..
+
+6. Cómo funciona el grid system de Bootstrap?
+
+El grid system de bootstrap es un sistema que permite alinear una página web
+a través de contenedores, filas y columnas. 
+
+* Los contenedores sirven para centrar horizontalmente el contenido del sitio.
+
+* Las filas son wrappers para columnas. Cada columna tiene un padding horizontal
+para controlar el espacio entre ellos. El padding es contraarrestado en las filas
+con un margen negativo. De esta forma todo el contenido de las columnas es 
+alineado visualmente en el lado izquierdo.
+
+* En un diseño basado en columnas el contenido debe ser colocado en columnas
+y las columnas únicamente pueden ser hijos inmediatos de las filas.
+
+* Para que los grids sean responsive, existen cinco breakpoints uno para cada 
+breakpoint responsive: todos los breakpoints (extra pequeño), pequeños, 
+medianos, grandes y extra grandes.
+
+~~7. En Bootstrap, que sígnifican o qué representan los siguientes conceptos? Cómo se utilizan?  container, container-fluid, row, row-fluid, col
+
+* container:
+* container-fluid: cuando un container es fluid significa que ocupa el tamaño
+completo de la pantalla 
+* row:
+* row-fluid:
+* col: ~~
+
+9. Cómo puedes ocultar y mostrar selectivamente secciones de código utilizando Bootstrap según la resolución del dispositivo?
+
+Con los media querys:  @media only screen (max-width:767)
+
+10. Cómo se puede cambiar una propiedad de CSS para un breakpoint en específico?
+
+@media only screen (min-width: 767px){
+	propiedad:valor;
+}
