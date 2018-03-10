@@ -101,3 +101,26 @@ Con los media querys:  @media only screen (max-width:767)
 @media only screen (min-width: 767px){
 	propiedad:valor;
 }
+
+14. Qué es un navbar?
+
+Un navbar es un elemento de una página web que funciona como barra de navegación.
+
+Un navbar puede estar presente en una página web de muchas maneras. Normalmente
+se encuentra en el tope de ésta ya sea fijo en el tope de la página o fixed que 
+es cuando el navbar "persigue" al usuario a lo largo del scrolling de la página.
+
+15. Qué es un footer?
+
+El footer es un elemento de una página web el cual se refiere al pie de la página.
+
+Casi siempre es el último elemento presente en un sitio web el cual se encuentra
+al final de este.
+
+Normalmente en el footer se incluye la siguiente información
+
+* Links de navegación de la página
+* Redes sociales
+* Información de contacto e información de derechos de autor
+* Información del desarrollo de la pagina
+
