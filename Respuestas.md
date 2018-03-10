@@ -5,7 +5,7 @@
 
 ### Respuestas
 
-1. Qué es un diseño responsive? Por qué son importantes?
+**1. Qué es un diseño responsive? Por qué son importantes?**
 
 Un diseño responsive es una tećnica del diseño web en la cual se esquematiza 
 una página web de forma que esta se ajusta para verse bien en diferentes 
@@ -21,7 +21,7 @@ los sitios web desde distintos dispositivos y se quiere que la experiencia que
 tengan estos usuarios en cualquiera de estos sea la mejor buscando así ofrecer
 un diseño correcto.
 
-2. Qué es un media query?
+**2. Qué es un media query?**
 
 Un media query es una técnica de CSS introducida en CSS3.
 
@@ -38,12 +38,12 @@ de CSS sea válida para dispositivos que sean de un tamaño especifico por ejemp
 Lo que se indique en reglas css se aplicara únicamente cuando el tamaño de la 
 pantalla del dispositivo sea mayor a 768 pixeles.
 
-~~3. Cuáles son las resoluciones estándares, o breakpoints, que se utilizan en el diseño responsive?
+~~3. Cuáles son las resoluciones estándares, o breakpoints, que se utilizan en el diseño responsive?~~
 
-Las resoluciones estándares que se han utilizado hasta ahora son ~~
+~~Las resoluciones estándares que se han utilizado hasta ahora son ~~
 
 
-4. Qué es Bootstrap?
+**4. Qué es Bootstrap?**
 
 Bootstrap es un framework gratuito de desarollo sitios web tanto responsive 
 como mobile-first.
@@ -55,7 +55,7 @@ Bootstrap contiene plantillas de diseño de formularios, botones, menús de
 navegación, entre otras cosas.
 
 
-5. Mencione otras librerias para la personalización de front end
+**5. Mencione otras librerias para la personalización de front end**
 
 * Materialize 
 * Pure
@@ -64,7 +64,7 @@ navegación, entre otras cosas.
 
 y más..
 
-6. Cómo funciona el grid system de Bootstrap?
+**6. Cómo funciona el grid system de Bootstrap?**
 
 El grid system de bootstrap es un sistema que permite alinear una página web
 a través de contenedores, filas y columnas. 
@@ -83,26 +83,26 @@ y las columnas únicamente pueden ser hijos inmediatos de las filas.
 breakpoint responsive: todos los breakpoints (extra pequeño), pequeños, 
 medianos, grandes y extra grandes.
 
-~~7. En Bootstrap, que sígnifican o qué representan los siguientes conceptos? Cómo se utilizan?  container, container-fluid, row, row-fluid, col
+~~7. En Bootstrap, que sígnifican o qué representan los siguientes conceptos? Cómo se utilizan?  container, container-fluid, row, row-fluid, col~~
 
-* container:
-* container-fluid: cuando un container es fluid significa que ocupa el tamaño
-completo de la pantalla 
-* row:
-* row-fluid:
-* col: ~~
+~~* container:~~
+~~* container-fluid: cuando un container es fluid significa que ocupa el tamaño
+completo de la pantalla ~~
+~~* row:~~
+~~* row-fluid:~~
+~~* col:~~
 
-9. Cómo puedes ocultar y mostrar selectivamente secciones de código utilizando Bootstrap según la resolución del dispositivo?
+**9. Cómo puedes ocultar y mostrar selectivamente secciones de código utilizando Bootstrap según la resolución del dispositivo?**
 
 Con los media querys:  @media only screen (max-width:767)
 
-10. Cómo se puede cambiar una propiedad de CSS para un breakpoint en específico?
+**10. Cómo se puede cambiar una propiedad de CSS para un breakpoint en específico?**
 
 @media only screen (min-width: 767px){
 	propiedad:valor;
 }
 
-14. Qué es un navbar?
+**14. Qué es un navbar?**
 
 Un navbar es un elemento de una página web que funciona como barra de navegación.
 
@@ -110,7 +110,7 @@ Un navbar puede estar presente en una página web de muchas maneras. Normalmente
 se encuentra en el tope de ésta ya sea fijo en el tope de la página o fixed que 
 es cuando el navbar "persigue" al usuario a lo largo del scrolling de la página.
 
-15. Qué es un footer?
+**15. Qué es un footer?**
 
 El footer es un elemento de una página web el cual se refiere al pie de la página.
 
@@ -122,5 +122,4 @@ Normalmente en el footer se incluye la siguiente información
 * Links de navegación de la página
 * Redes sociales
 * Información de contacto e información de derechos de autor
-* Información del desarrollo de la pagina
-
+* Información sobre el desarrollador de la pagina
