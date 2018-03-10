@@ -40,7 +40,7 @@ pantalla del dispositivo sea mayor a 768 pixeles.
 
 ~~3. Cuáles son las resoluciones estándares, o breakpoints, que se utilizan en el diseño responsive?~~
 
-~~Las resoluciones estándares que se han utilizado hasta ahora son ~~
+~~Las resoluciones estándares que se han utilizado hasta ahora son~~
 
 
 **4. Qué es Bootstrap?**
@@ -87,14 +87,14 @@ medianos, grandes y extra grandes.
 
 ~~* container:~~
 ~~* container-fluid: cuando un container es fluid significa que ocupa el tamaño
-completo de la pantalla ~~
+completo de la pantalla~~
 ~~* row:~~
 ~~* row-fluid:~~
 ~~* col:~~
 
-**9. Cómo puedes ocultar y mostrar selectivamente secciones de código utilizando Bootstrap según la resolución del dispositivo?**
+~~**9. Cómo puedes ocultar y mostrar selectivamente secciones de código utilizando Bootstrap según la resolución del dispositivo?**~~
 
-Con los media querys:  @media only screen (max-width:767)
+~~Con los media querys:  @media only screen (max-width:767px)~~
 
 **10. Cómo se puede cambiar una propiedad de CSS para un breakpoint en específico?**
 
