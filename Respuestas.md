@@ -38,7 +38,7 @@ de CSS sea válida para dispositivos que sean de un tamaño especifico por ejemp
 Lo que se indique en reglas css se aplicara únicamente cuando el tamaño de la 
 pantalla del dispositivo sea mayor a 768 pixeles.
 
-~~3. Cuáles son las resoluciones estándares, o breakpoints, que se utilizan en el diseño responsive?~~
+~~**3. Cuáles son las resoluciones estándares, o breakpoints, que se utilizan en el diseño responsive?**~~
 
 ~~Las resoluciones estándares que se han utilizado hasta ahora son~~
 
@@ -83,7 +83,7 @@ y las columnas únicamente pueden ser hijos inmediatos de las filas.
 breakpoint responsive: todos los breakpoints (extra pequeño), pequeños, 
 medianos, grandes y extra grandes.
 
-~~7. En Bootstrap, que sígnifican o qué representan los siguientes conceptos? Cómo se utilizan?  container, container-fluid, row, row-fluid, col~~
+~~**7. En Bootstrap, que sígnifican o qué representan los siguientes conceptos? Cómo se utilizan?  container, container-fluid, row, row-fluid, col**~~
 
 ~~* container:~~
 ~~* container-fluid: cuando un container es fluid significa que ocupa el tamaño
@@ -91,6 +91,8 @@ completo de la pantalla~~
 ~~* row:~~
 ~~* row-fluid:~~
 ~~* col:~~
+
+~~**8. En las columnas de Bootstrap, que es un offset y cómo se utiliza?**~~
 
 ~~**9. Cómo puedes ocultar y mostrar selectivamente secciones de código utilizando Bootstrap según la resolución del dispositivo?**~~
 
@@ -101,6 +103,25 @@ completo de la pantalla~~
 @media only screen (min-width: 767px){
 	propiedad:valor;
 }
+
+**11. Qué es un modal?**
+
+Un modal es una ventana de diálogo/popup que se muestra en el tope de la
+página actual.
+
+![alt text](https://s3.envato.com/files/216435063/screenshots/11.roundBorderModal.png "Modal")
+
+**12. Qué es un carrusel?**
+
+El carrusel es una presentación de láminas para "ciclar" a través de una serie
+de contenido, construido con CSS 3D y un poco de JavaScript. Funciona con una 
+serie de imágenes, texto o markup personalizado. Incluye soporte para controles 
+e indicadores anteriores / siguientes.
+
+**13. Qué es un tooltip?**
+
+Es un pequeño cuadro emergente que aparece cuando el usuario mueve el puntero 
+del ratón sobre un elemento:
 
 **14. Qué es un navbar?**
 
@@ -123,3 +144,43 @@ Normalmente en el footer se incluye la siguiente información
 * Redes sociales
 * Información de contacto e información de derechos de autor
 * Información sobre el desarrollador de la pagina
+
+**16. Qué es un jumbotron?**
+
+Un jumbotron es un elemento de boostrap el cual funciona una caja grande para 
+obtener atención extra de algún contenido o información.
+
+Para crear un jumbotron se crea un div con la clase jumbotron de la siguiente
+manera:
+
+```html
+<div class="jumbotron>
+  Aqui puede ir cualquier etiqueta html
+</div>
+```
+
+**17. Qué es flex box?**
+
+Flexbox es un módulo de diseño el cual facilita la estructura de diseño responsive
+sin necesidad de usar float o posicionamiento. Permite crear diseños flexibles
+olvidando los métodos tradicionales y antiguos de CSS los cuales en muchos casos
+no cubren con las exigencias de los retos y suelen ser problemáticos.
+
+Los elementos básicos de este nuevo esquema son los siguientes:
+
+* Contenedor: es el elemento padre el cual contendrá cada uno de los elementos
+flexibles y adaptables.
+
+* Item: cada uno de los hijos flexibles	pertenecientes al contenedor.
+
+* Eje principal: los contenedores flexibles tendrán una orientación principal.
+El valor por defecto es horizontal (en forma de fila)
+
+* Eje secundario: orientación secundaria la cual es perpendicular a la principal.
+Si la principal es horizontal la secundaria es vertical y viceversa.
+
+![alt text](https://lenguajecss.com/p/css/propiedades/flexbox-como-funciona.png "Flexbox")
+
+~~**18. Cuáles son los distintos tipos de flex que existen y para qué sirve cada uno?**~~
+
+~~**19. Para que sirven las propiedades flex-flow, justify-content y align-content?**~~
