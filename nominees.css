@@ -1,0 +1,119 @@
+
+body{
+	background-color: #FFF0C6;
+}
+
+.container{
+	margin-top: 50px;
+}
+
+#main{/*pen*/
+	width: 100%;
+
+}
+
+li>a{
+	color: white;
+}
+
+.col-sm-4>a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2rem;
+}
+
+.col-sm-4{
+	padding: 10px;
+}
+
+#title{
+	text-align: center;
+	font-size: 3.2rem;
+	font-family: 'Julius Sans One', sans-serif;
+	font-weight: bold;
+}
+
+#logo{
+	width: 120px;
+	margin-top: -21px;
+	position: absolute;
+	clip:rect(13px,115px, 50.5px, 0px);
+}
+
+
+#list{
+	margin-left: 110px;
+	font-family: 'Cuprum', sans-serif;
+	font-size: 2.2rem;
+}
+
+#noms{
+	text-align: center;
+	font-family: 'Cuprum', sans-serif;
+}
+
+.navbar-custom{
+	background-color:#D1AA50;
+
+}
+
+p{
+	font-family: 'Cuprum', sans-serif;
+	text-align: justify;
+	font-size: 2.4rem;
+}
+
+img{
+	width: 25rem;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li>a{
+	color: white;
+}
+
+.navbar-custom .navbar-nav > li > a:hover{
+	font-weight: bold;
+    background-color: #D1AA50;
+    color:white;
+}
+
+.e1,.e3,.e4,.e6,.e7,.e9{
+	background-color: #E9C35C;
+}
+
+.e2,.e5,.e8{
+	background-color: #FBDC86;
+}
+
+@media only screen and (max-width: 768px) {
+	
+	#main{
+		margin-top: 260px;
+	}
+  	
+  	#list{
+  		margin-left: initial;
+  	}
+
+  	p{
+  		font-size: 1.8rem;
+  	}
+
+  	#title, h2{
+  		font-size: 2rem;
+  	}
+
+  	h3{
+  		font-size: 2rem;
+  	}
+  	.e1,.e3,.e5,.e7,.e9{
+  		background-color: #E9C35C;
+  	}
+
+  	.e2,.e4,.e6,.e8{
+  		background-color: #FBDC86;
+  	}
+}
+
+
