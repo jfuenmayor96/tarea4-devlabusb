@@ -1,0 +1,52 @@
+/*
+* INDEX STYLE SHEET
+*
+* David Cabeza <cabezadavide at gmail dot com>
+*/
+@import url('https://fonts.googleapis.com/css?family=Italiana');
+
+body, html{
+    height:100%;
+    margin:0;
+    font-family: 'Italiana', sans-serif;
+}
+
+
+
+.navbar_home{
+  background: rgba(20,20,20,0.5);
+  min-height:70px !important;
+  -webkit-box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 9px -10px rgba(0,0,0,0.75);
+}
+
+.navbar_home a{
+  font-weight: bold;
+  font-size:18px;
+  color: rgba(220,220,220,1) !important;
+}
+
+.navbar_home a:hover{
+  color: rgb(255,255,255) !important;
+}
+
+.carousel-caption p{
+  padding-bottom:15%;
+  font-weight: bold;
+  font-size:18px;
+  background:rgba(0,0,0,0.5);
+}
+
+.info{
+  background-color: rgba(200,200,200,0.3);
+}
+
+@media only screen and (min-width: 768px){
+  #italy_carousel{
+    height:100%;
+  }
+  .info{
+    padding-top:150px;
+  }
+}
