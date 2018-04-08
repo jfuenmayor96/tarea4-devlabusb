@@ -13,6 +13,9 @@ body{
 
 }
 
+#navbartitle{
+	font-weight: bold;
+}
 
 .col-lg-4{
 	padding: 10px;
@@ -74,6 +77,10 @@ li>a{
     color:white;
 }
 
+iframe{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 @media only screen and (max-width: 768px) {
 	
 	#main{
@@ -94,6 +101,10 @@ li>a{
 
   	h3{
   		font-size: 2rem;
+  	}
+
+  	iframe{
+  		width: 95%;
   	}
 }
 

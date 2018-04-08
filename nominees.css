@@ -16,7 +16,9 @@ li>a{
 	color: white;
 }
 
-
+#navbartitle{
+	font-weight: bold;
+}
 
 .col-sm-4>a{
 	text-decoration: none;

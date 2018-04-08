@@ -17,6 +17,10 @@ body{
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+#navbartitle{
+	font-weight: bold;
+}
+
 .carousel-caption>h3{
 	background:rgba(229, 200, 11, 0.3);
 	font-family: 'Cuprum', sans-serif;
